@@ -1,2 +1,7 @@
-# LIMP
-LIMP: Large Language Model Enhanced Intent-aware Mobility Prediction
+# LIMP: Large Language Model Enhanced Intent-aware Mobility Prediction
+
+Human mobility prediction is essential for applications like urban planning and transportation management, yet it remains challenging due to the complex, often implicit, intentions behind human behavior. Existing models predominantly focus on spatiotemporal patterns, paying less attention to the underlying intentions that govern movements. Recent advancements in large language models (LLMs) offer a promising alternative research angle for integrating commonsense reasoning into mobility prediction. However, it is a non-trivial problem because LLMs are not natively built for mobility intention inference, and they also face scalability issues and integration difficulties with spatiotemporal models. To address these challenges, we propose a novel LIMP (<u>L</u>LMs for <u>I</u>ntent-ware <u>M</u>obility <u>P</u>rediction) framework. Specifically, LIMP introduces an "Analyze-Abstract-Infer" (A2I) agentic workflow to unleash LLM’s commonsense reasoning power for mobility intention inference. Besides, we design an efficient fine-tuning scheme to transfer reasoning power from commercial LLM to smaller-scale, open-source language model, ensuring LIMP’s scalability to millions of mobility records. Moreover, we propose a transformer-based intention-aware mobility prediction model to effectively harness the intention inference ability of LLM. Evaluated on two real-world datasets, LIMP significantly outperforms baseline models, demonstrating improved accuracy in next-location prediction and effective intention inference. The interpretability of intention-aware mobility prediction highlights our LIMP framework’s potential for real-world applications.
+
+[Paper](./assets/LIMP_arxiv.pdf)
+
+Codes coming soon!
